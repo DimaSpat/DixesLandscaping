@@ -1,0 +1,20 @@
+.services > img, .services > .services-content {
+    transition: .4s ease-in-out;
+}
+
+/* Blur */
+.services:hover > img.blur {
+    filter: blur(5px);
+}
+
+/* Fade */
+.services > .fade > p, .services > .fade > button {
+    opacity: 0;
+} .services:hover > .fade > p, .services:hover > .fade > button {
+    opacity: 1;
+}
+.services > .fade > p, .services > .fade > button {
+    opacity: 0;
+} .services:hover > .fade > p, .services:hover > .fade > button {
+    opacity: 1;
+}
